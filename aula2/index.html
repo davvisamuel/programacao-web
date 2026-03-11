@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <h1>Página de cadastro</h1>
+        <form>
+            <fieldset>
+                <legend>Crie sua conta</legend>
+
+                <label for="username">Nome:</label>
+                <br>
+                <input type="text" id="username" name="username">
+                <br>
+                <br>
+
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="username" placeholder="user@example.com">
+                <br>
+                <br>
+
+                <label for="password">Senha:</label>
+                <br>
+                <input type="password" id="password" name="password">
+                <br>
+                <br>
+
+                <h2>Gênero</h2>
+
+                <input type="radio" name="gender" id="masculino" value="masculino">
+                <label for="masculino">Masculino</label>
+                <br>
+                <br>
+
+                <input type="radio" name="gender" id="feminino" value="feminino">
+                <label for="feminino">Feminino</label>
+                <br>
+                <br>
+
+                <input type="radio" name="gender" id="outro" value="outro">
+                <label for="outro">Outro</label>
+                <br>
+                <br>
+
+                <label for="biography">Biografia:</label>
+                <br>
+                <textarea name="biography" id="biography" placeholder="Fale um pouco sobre você..."></textarea>
+                <br>
+                <br>
+
+                <input type="checkbox" name="terms" id="terms" required>
+                <label for="terms">Eu li e aceito os termos de serviço</label>
+            </fieldset>
+            <br>
+            
+            <button type="submit">Cadastrar</button>
+            <button type="reset">Limpar</button>
+    </form>
+    </main>
+</body>
+</html>
