@@ -1,0 +1,29 @@
+.task-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  width: 100%;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  gap: 0.5rem;
+  background-color: #64748b;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-btn {
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #334155;
+  color: white;
+  cursor: pointer;
+}

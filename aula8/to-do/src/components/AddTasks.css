@@ -1,0 +1,23 @@
+.add-task-container {
+  display: flex;
+  gap: 10px;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.add-task-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+}
+
+.add-btn {
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #334155;
+  color: white;
+  cursor: pointer;
+}
